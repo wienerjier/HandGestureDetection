@@ -1,0 +1,20 @@
+python3.5.4  tensorflow-0.12.1    Keras1.2.2  Theano 1.0.4 
+安装PIL错误：应安装Pillow 7.2.0
+
+graphviz 0.14   pydotplus2.0.2    reference：https://blog.csdn.net/chekongfu/article/details/93291871
+in windows need install grahviz-install-2.44.1-win64.exe    download from https://graphviz.org/_pages/Download/Download_windows.html
+(Graphviz plugins need to be registered before they can be used.In Windows, open the command prompt as admin and type dot -c to register. You can verify it by typing dot -v)
+hyp5 2.10.0
+
+HandNetMaker.py脚本中，加参数dim_ordering='th'
+keras.json文件中“tf”修改"image_dim_ordering": "th"
+C:\Users\gang\.keras\keras.json {
+    "floatx": "float32",
+    "epsilon": 1e-07,
+    "backend": "tensorflow",
+    "image_data_format": "channels_last",
+    "image_dim_ordering": "th"
+}
+
+
+HandDetector.py和HandGesture.java中的realTimePath修改一致
